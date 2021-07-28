@@ -14,6 +14,7 @@ depends="
 	postmarketos-base
 "
 makedepends="devicepkg-dev"
+subpackages="$pkgname-nonfree-firmware:nonfree_firmware"
 source="deviceinfo"
 
 build() {
@@ -22,6 +23,12 @@ build() {
 
 package() {
 	devicepkg_package $startdir $pkgname
+}
+
+nonfree_firmware() {
+	pkgdesc="Wi-Fi, ADSP Firmware"
+	depends="firmware-asus-x01ad"
+	mkdir "$subpkgdir"
 }
 
 sha512sums="(run 'pmbootstrap checksum device-asus-x01ad' to fill)"
