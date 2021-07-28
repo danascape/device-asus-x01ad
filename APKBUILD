@@ -10,6 +10,7 @@ options="!check !archcheck"
 depends="
 	linux-asus-x01ad
 	mesa-dri-gallium
+	msm-fb-refresher
 	mkbootimg
 	postmarketos-base
 "
