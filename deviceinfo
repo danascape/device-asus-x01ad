@@ -33,3 +33,7 @@ deviceinfo_flash_offset_ramdisk="0x80000000"
 deviceinfo_flash_offset_second="0x80000000"
 deviceinfo_flash_offset_tags="0x00000100"
 
+# RNDIS related 
+deviceinfo_usb_rndis_function="rndis_bam.rndis"
+deviceinfo_usb_idVendor="0x0B05"
+deviceinfo_usb_idProduct="0x7774"
