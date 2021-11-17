@@ -1,14 +1,14 @@
 # Reference: <https://postmarketos.org/devicepkg>
 pkgname=device-asus-x01ad
 pkgdesc="Asus Max M2"
-pkgver=0.1
+pkgver=1
 pkgrel=0
 url="https://postmarketos.org"
 license="MIT"
 arch="aarch64"
 options="!check !archcheck"
 depends="
-	linux-asus-x01ad
+	linux-postmarketos-qcom-msm8953
 	mesa-dri-gallium
 	msm-fb-refresher
 	mkbootimg
