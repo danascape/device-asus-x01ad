@@ -32,4 +32,6 @@ nonfree_firmware() {
 	mkdir "$subpkgdir"
 }
 
-sha512sums="(run 'pmbootstrap checksum device-asus-x01ad' to fill)"
+sha512sums="
+31f82f855e0dbf5f701ee9bb92e10387d5c03cc9ffc43fa1880b6b10336f0bb8442f1bc9a4889ba9bfeae25df94999c009ca54235a2153d5e94f2fcf2f31f34c  deviceinfo
+"
